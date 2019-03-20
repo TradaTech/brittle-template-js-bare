@@ -1,4 +1,8 @@
 module.exports = {
-  privateKey: "",
-  url: ""
+  networks: {
+    private: {
+      privateKey: "",
+      url: "ws://localhost:26657/websocket"
+    }
+  }
 };
